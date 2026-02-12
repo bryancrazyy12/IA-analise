@@ -14,8 +14,15 @@ Aplicativo em **Streamlit** que recebe o link de uma notícia e gera um parecer 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
-streamlit run app.py
+python3 -m pip install --upgrade pip
+python3 -m pip install -r requirements.txt
+python3 -m streamlit run app.py
+```
+
+Se estiver no Windows (PowerShell), ative o ambiente com:
+
+```powershell
+.venv\Scripts\Activate.ps1
 ```
 
 ## Testes
